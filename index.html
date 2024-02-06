@@ -28,7 +28,8 @@
     <script src="/js/factories/MoviesFactory.js"></script>
 
     <!-- Models -->
-    <script src="/js/models/ApiV1.js"></script>
+    <!-- <script src="/js/models/AbstractApi.ts"></script> -->
+    <script src="/js/models/ApiV1.js" type="module"> </script>
     <script src="/js/models/ApiV2.js"></script>
     <script src="/js/models/ApiV3.js"></script>
 
@@ -39,6 +40,6 @@
     <script src="/js/api/Api.js"></script>
 
     <!-- Entry point -->
-    <script src="/js/App.js"></script>
+    <script src="dist/app.js" type="module"></script>
   </body>
 </html>

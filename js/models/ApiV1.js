@@ -1,10 +1,6 @@
-class ApiV1 {
+class ApiV1 extends AbstractApi{
     constructor(data) {
-        this._duration = data.duration
-        this._picture = data.picture
-        this._released_in = data.released_in
-        this._synopsis = data.synopsis
-        this._title = data.title
+        super( data );
     }
 
     get duration() {
